@@ -1,9 +1,14 @@
 html{scroll-behavior:smooth}
 /* shortcut section */
-.faq-container a{text-decoration:none;}
+ a,  a:hover,  a:focus,  a:active {
+      text-decoration: none;
+      color: inherit;
+ }
 .faq-container .section-title{
+  padding-left:5px;
   width:30%;
-  border:solid 2px black;
+  margin-bottom:-2px;
+  border:solid 2px blue;
   border-bottom-color:transparent;
 }
 .shortcut p{border:solid 2px white;
