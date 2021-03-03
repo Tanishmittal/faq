@@ -1,0 +1,82 @@
+html{scroll-behavior:smooth}
+/* shortcut section */
+.faq-container a{text-decoration:none;}
+.faq-container .section-title{
+  width:30%;
+  border:solid 2px black;
+  border-bottom-color:transparent;
+}
+.shortcut p{border:solid 2px white;
+  margin:10px auto;
+  padding:5px;
+  text-align:center;
+}
+.shortcut ul{
+  padding:0;
+  background-color:#A9A9A9;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+.shortcut ul li{
+  list-style:none;
+  width:200px;
+  color:blue;
+}
+/*  faq*/
+.accordion {
+    background-color: transparent;
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: solid 2px blue;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .faq-item {
+    width: 100%;
+    margin-bottom:5px;
+    height: auto;
+  }
+  
+  .faq {
+    margin: 15px 5px;
+    display: grid;
+    justify-content:center;
+    grid-template-columns: 1fr;
+    gap:20px;
+    
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  
+  
+  .accordion:before {
+    content: "\2B9E";
+    color: blue;
+    font-weight: bold;
+    float: left;
+    margin-right:10px;
+  }
+  
+  .active:before {
+    content: "\2B9F";
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 5px;
+    background-color: transparent;
+    display: none;
+    overflow: hidden;
+    color: black;
+  }
+  .panel p::first-letter{font-size: 46px;font-weight: 800;color:blue;}
+
+  }
+  
